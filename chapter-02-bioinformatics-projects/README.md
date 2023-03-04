@@ -14,7 +14,7 @@
 - data/seqs: dta processing as separate subjects<br>
 - script: contain project wide scripts, very often divided into different moduler scripts<br>
 - analysis: keep high level analyses, such as figures, and tables<br>
-**each folder contains a README.md file**: what is in the repository and how it got there<br>
+**each folder contains a `README.md` file**: what is in the repository and how it got there<br>
 
 ## PROJECT DOCUMENTATION
 - document method and workflow: any command produces results, as well default values<br>
@@ -27,11 +27,10 @@
 ## USE DIRECTORIES TO DIVE UP YOUR PROJECT INTO SUBPROJECTS
 - create directories to logically separate subprojects(for example data quality improvement, aligning, analyzing alignment results, etc.)<br>
 ## ORGANIZING DATA TO AUTOMATE FILE PROCESSING TASKS
-    touch seqs/zmays{A,B,C}_R{1,2}.fastq
+    >touch seqs/zmays{A,B,C}_R{1,2}.fastq
 **Numbering the files as 001, 002...014**<br>
 
 ## MARKDOWN FOR PROJECT NOTEBOOKS
-
 
 ## Markdown Editors
 
