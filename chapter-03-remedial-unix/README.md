@@ -5,19 +5,36 @@
 ## MODULAIRTY AND TEH UNIX PHILOSOPHY
 ## WORKING ON STREAMS AND REDIRECTION
 ### redircting standard out to a file
-    > cat tb1-protein.fasta tga1-protein.fasta > zea-proteins.fasta
+	> cat tb1-protein.fasta tga1-protein.fasta > zea-proteins.fasta
 ### redirecting standard error
-	> ls -l tb1.fasta leafy1.fasta > listing.text 2. listing.stderr
+	> ls -l tb1.fasta leafy1.fasta > listing.text 2> listing.stderr
 standard inut, output, and error as 0, 1, 2
 ### using standard input redirection
-    cat inputfile | program > output
+	cat inputfile | program > output
 ## THE ALMIGHT UNIX PIPE: SPEED AND BEAUTY IN ONE
+	❯ echo "CGACTGACTACHGAGCAAHSAGDHASB" seqs/zmaysA_R1.fastq | grep -v "^>" | grep --color -i "[^ATCG]"
+	CGACTGACTACHGAGCAAHSAGDHASB seqs/zmaysA_R1.fastq
+
 ## MANAGING AND INTERACTING WITH PROCESS
+### background processes
+	>program1 input.txt > results.txt &
+	>jobs
+`&` at the end allows the program to run in the background<br>
+### killing process
+`control-C`<br>
+### exit status: how to programmatically tell whether your command worked
+	> echo $?
+display `zero` if process ran successfully and any nonzero status indicates some sort of error has occurred<br>
+	> program1 input.txt > intermidiate-results.txt && program2 intermediate-results.txt > results.txt
+`&&` operator excutes subsequent commands only if the previous commands have completed with nonzeros exit status<br>
+	> program1 input.txt > intermidiate-results.txt || program2 intermediate-results.txt > results.txt
+`||` operator excutes subsequent commands only if the previous commands have completed with nonzeros exit status<br>
 
-# Remedial Unix Shell
+## command substitution
+	> mv input.txt "input$(date +%F).txt"
 
+	
 ## Useful Unix shortcuts
-
 These are *essential* if you spend a lot of time in the shell. See the [preface
 readme](https://github.com/vsbuffalo/bds-files/blob/master/chapter-00-preface/README.md)
 for more details on how I set up my terminal (some of these changes are
