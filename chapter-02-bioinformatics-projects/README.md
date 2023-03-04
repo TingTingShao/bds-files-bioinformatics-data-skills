@@ -9,7 +9,7 @@
 ## project Directories and Directory structures
 
     >mkdir -p zmays-snps/{data/seqs,script,analysis}
-    ![tree structure](https://user-images.githubusercontent.com/119160604/222879378-6dbb2cef-7e65-4ebe-bb42-798bea8fe9ef.png)
+    ![tree structure](https://github.com/TingTingShao/bds-files-bioinformatics-data-skills/blob/4a66745a6bc50e7c1225a948d0affe4a75589a5a/chapter-02-bioinformatics-projects/dicStructure.png)
 
 
 ## PROJECT DOCUMENTATION
