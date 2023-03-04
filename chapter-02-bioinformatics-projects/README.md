@@ -10,11 +10,11 @@
 
     >mkdir -p zmays-snps/{data/seqs,script,analysis}   
     .
-└── zmays-snps<br>
-    ├── analysis<br>
-    ├── data<br>
-    │   └── seqs<br>
-    └── script<br>
+---- zmays-snps<br>
+    ---- analysis<br>
+    ---- data<br>
+    ---- ---- seqs<br>
+    ---- script<br>
 
 
 
