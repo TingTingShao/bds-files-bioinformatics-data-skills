@@ -11,11 +11,11 @@
     >mkdir -p zmays-snps/{data/seqs,script,analysis}   
     
 -zmays-snps: project name<br>
--data: all raw and intermediate data. 
--data/seqs: dta processing as separate subjects
--script: contain project wide scripts, very often divided into different moduler scripts
--analysis: keep high level analyses, such as figures, and tables
-each folder contains a README.md file
+-data: all raw and intermediate data<br>
+-data/seqs: dta processing as separate subjects<br>
+-script: contain project wide scripts, very often divided into different moduler scripts<br>
+-analysis: keep high level analyses, such as figures, and tables<br>
+**each folder contains a README.md file**<br>
 ## PROJECT DOCUMENTATION
 -document method and workflow: any command produces results, as well default values
 -document the origin of all data in the project directory: where, when, what has done to
