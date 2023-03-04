@@ -10,7 +10,7 @@
 
     >mkdir -p zmays-snps/{data/seqs,script,analysis} <br>
     
-    ![tree structure](https://raw.githubusercontent.com/TingTingShao/bds-files-bioinformatics-data-skills/master/chapter-02-bioinformatics-projects/dicStructure.png)
+    ![tree structure](chapter-02-bioinformatics-projects/dicStructure.png)
 
 
 
