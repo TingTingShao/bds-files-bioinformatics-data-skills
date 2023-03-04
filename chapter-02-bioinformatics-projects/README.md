@@ -8,24 +8,28 @@
 
 ## project Directories and Directory structures
 
-    >mkdir -p zmays-snps/{data/seqs,script,analysis}   
-    
--zmays-snps: project name<br>
--data: all raw and intermediate data<br>
--data/seqs: dta processing as separate subjects<br>
--script: contain project wide scripts, very often divided into different moduler scripts<br>
--analysis: keep high level analyses, such as figures, and tables<br>
-**each folder contains a README.md file**<br>
+    >mkdir -p zmays-snps/{data/seqs,script,analysis}      
+- zmays-snps: project name<br>
+- data: all raw and intermediate data<br>
+- data/seqs: dta processing as separate subjects<br>
+- script: contain project wide scripts, very often divided into different moduler scripts<br>
+- analysis: keep high level analyses, such as figures, and tables<br>
+**each folder contains a README.md file**: what is in the repository and how it got there<br>
+
 ## PROJECT DOCUMENTATION
--document method and workflow: any command produces results, as well default values
--document the origin of all data in the project directory: where, when, what has done to
--document when you downloaded the data
--record data version information
--describe how you download the data
--document the versions of the software you run, including the packages
+- document method and workflow: any command produces results, as well default values<br>
+- document the origin of all data in the project directory: where, when, what has done to<br>
+- document when you downloaded the data<br>
+- record data version information<br>
+- describe how you download the data<br>
+- document the versions of the software you run, including the packages<br>
 
 ## USE DIRECTORIES TO DIVE UP YOUR PROJECT INTO SUBPROJECTS
+- create directories to logically separate subprojects(for example data quality improvement, aligning, analyzing alignment results, etc.)<br>
 ## ORGANIZING DATA TO AUTOMATE FILE PROCESSING TASKS
+    touch seqs/zmays{A,B,C}_R{1,2}.fastq
+**Numbering the files as 001, 002...014**<br>
+
 ## MARKDOWN FOR PROJECT NOTEBOOKS
 
 
