@@ -8,9 +8,13 @@
 
 ## project Directories and Directory structures
 
-    >mkdir -p zmays-snps/{data/seqs,script,analysis}
-    
-![structure](./chapter-02-bioinformatics-projects/dicStructure.png)
+    >mkdir -p zmays-snps/{data/seqs,script,analysis}   
+    .
+└── zmays-snps
+    ├── analysis
+    ├── data
+    │   └── seqs
+    └── script
 
 
 
