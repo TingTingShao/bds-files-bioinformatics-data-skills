@@ -1,6 +1,6 @@
 # Setting up and Managing a Bioinformatics Project
 
-***
+'***'
 
 ## note from book<br />
 ## project Directories and Directory structures
