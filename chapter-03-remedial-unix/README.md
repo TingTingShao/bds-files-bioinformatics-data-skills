@@ -1,3 +1,19 @@
+# BOOK NOTE
+
+<hr>
+
+## MODULAIRTY AND TEH UNIX PHILOSOPHY
+## WORKING ON STREAMS AND REDIRECTION
+### redircting standard out to a file
+    > cat tb1-protein.fasta tga1-protein.fasta > zea-proteins.fasta
+### redirecting standard error
+	> ls -l tb1.fasta leafy1.fasta > listing.text 2. listing.stderr
+standard inut, output, and error as 0, 1, 2
+### using standard input redirection
+    cat inputfile | program > output
+## THE ALMIGHT UNIX PIPE: SPEED AND BEAUTY IN ONE
+## MANAGING AND INTERACTING WITH PROCESS
+
 # Remedial Unix Shell
 
 ## Useful Unix shortcuts
