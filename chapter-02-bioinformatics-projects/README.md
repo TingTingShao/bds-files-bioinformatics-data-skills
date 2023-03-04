@@ -1,4 +1,14 @@
 # Setting up and Managing a Bioinformatics Project
+<hr />
+## note from book<br />
+## project Directories and Directory structures
+
+## PROJECT DOCUMENTATION
+
+## USE DIRECTORIES TO DIVE UP YOUR PROJECT INTO SUBPROJECTS
+## ORGANIZING DATA TO AUTOMATE FILE PROCESSING TASKS
+## MARKDOWN FOR PROJECT NOTEBOOKS
+
 
 ## Markdown Editors
 
