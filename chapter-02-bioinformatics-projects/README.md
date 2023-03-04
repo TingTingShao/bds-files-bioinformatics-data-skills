@@ -1,7 +1,7 @@
 # Setting up and Managing a Bioinformatics Project
 
 <hr>
-## NOTE FROM BOOK<br />
+**NOTE FROM BOOK**<br />
 <hr>
 
 ## project Directories and Directory structures
