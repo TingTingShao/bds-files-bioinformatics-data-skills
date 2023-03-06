@@ -1,3 +1,13 @@
+# course note.      
+# Working with Remote Machines Through Tmux. 
+## Installing and Configuring Tmux.    
+## Creating, Detaching, and Attaching Tmux Sessions.     
+    > tmux new-session -s maize-snps (-s + seesion name) (create).                                                          
+    > Control-a + d (deattach).                                               
+    > tmux list-sessions (list sessions).                          
+    > tmux attach -t <session-name> (attach sessions).                
+    
+
 # Working with Remote Machines
 
 This Github directory contains:
