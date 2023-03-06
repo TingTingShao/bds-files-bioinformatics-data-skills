@@ -31,7 +31,10 @@ display `zero` if process ran successfully and any nonzero status indicates some
 `||` operator excutes subsequent commands only if the previous commands have completed with nonzeros exit status<br>
 
 ## command substitution
-	> mv input.txt "input$(date +%F).txt"
+	> mv input.txt "input$(date +%F).txt".  
+	alias
+	> vi ~/.bash_aliases (type down the alias: mkpr='mkdir -p {data/seqs,scripts,analysis}')
+	> source ~/.bash_aliases (activate)
 
 	
 ## Useful Unix shortcuts
