@@ -1,5 +1,6 @@
 # Git for Scientists
-
+# book notes        
+## 
 ## A Note about Git GUIs
 
 This whole chapter uses command line Git. I've sort of hidden the fact from
